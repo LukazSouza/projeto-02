@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+
+  font-family: "Open Sans", sans-serif;
+
+ min-height: 100vw;
+
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 85.14%, rgba(227, 255, 248, 0.38) 103.06%);
+}
+
+.page {
+  width: 1000px;
+  margin: 0 auto ;
+  padding-top: 65px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px;
+  font-family: "Mulish", sans-serif;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 48px;
+  margin: 0;
+  padding: 0;
+}
+
+ul li a {
+  color: #1f1534;
+  text-decoration: none;
+
+  opacity: 0.5;
+}
+
+
+
+/* PSEUDO CLASS*/
+ul li a:hover {
+  font-weight: bold;
+  color: #89c5cc;
+}
+
+h1,
+ul {
+  font-family: "Mulish", sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 49px;
+  line-height: 56px;
+  color: #1f1534;
+
+  font-weight: normal;
+
+  width: 490px;
+
+  margin-bottom: 40px;
+}
+
+h1 spam {
+  color: #89c5cc;
+  font-weight: bold;
+}
+
+section p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #7d7987;
+  margin: 40px 0 5px;
+}
+
+button {
+  color: white; /*cores das letras*/
+  margin-top: 40px;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+
+  background-color: #69b99d; /*cores de fundo*/
+  border-radius: 4px; /*borda do botão*/
+  border: none; /*retira a borda do botão ou valor zero */
+
+  display: flex; /*alinha o conteudo ao lado do outro  */
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: row; /**/
+  padding: 14px 32px 15px; /*ja substitui a altura e largura*/
+  gap: 10px; /*Espaço entre elementos*/
+
+  cursor: pointer;
+}
+
+button:hover {
+  background: #186346;
+}
+
+footer {
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  margin: 82px 0 20px;
+}
+
+footer a {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+#balls {
+
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
